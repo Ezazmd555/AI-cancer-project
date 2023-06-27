@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cancer Detection AI</title>
+  <link rel="stylesheet" type="text/css" href="styles-upload.css">
+</head>
+<body class="body-part">
+  <header>
+    <h1>AI Cancer Detection</h1>
+  </header>
+
+  <div class="container">
+
+
+      <h2 id="title">Crop and Upload the image as shown </h2>
+
+      <img src="main.jpg" alt="keep being delusional" class="img1" />
+
+      <section>
+        <h2 id="upload-text">Upload Your Image</h2>
+        <form id="uploadForm" enctype="multipart/form-data">
+          <input type="file" id="imageUpload" accept=".jpg, .jpeg, .png" required>
+          <button type="submit" class="submit-button">Detect</button>
+        </form>
+      </section>
+
+  </div>
+
+  
+
+  
+  <section id="resultSection">
+    <h2>Result</h2>
+    <div id="resultMessage"></div>
+    <div id="resultImage"></div>
+  </section>
+  
+  <footer>
+    <p>&copy; 2023 Cancer Detection AI. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
